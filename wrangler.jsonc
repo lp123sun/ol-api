@@ -1,0 +1,33 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "ol-api",
+  "main": "src/cfapp.ts",
+  "compatibility_date": "2025-05-25",
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  "vars": {
+    "MAIN_URLS": "ol-api.6661777.xyz",
+    "PROXY_API": "0",
+    "onedrive_uid": "0",
+    "onedrive_key": "0",
+    "alicloud_uid": "2cc544b02c474a1c9ccca8502019d6e7",
+    "alicloud_key": "706dff76e98d4a6785d620986cde3575",
+    "baiduyun_uid": "0",
+    "baiduyun_key": "0",
+    "baiduyun_ext": "0",
+    "cloud115_uid": "0",
+    "cloud115_key": "0",
+    "googleui_uid": "0",
+    "googleui_key": "0",
+    "yandexui_uid": "0",
+    "yandexui_key": "0",
+    "dropboxs_uid": "0",
+    "dropboxs_key": "0",
+    "quarkpan_uid": "0",
+    "quarkpan_key": "0",
+  },
+  "site": {
+    "bucket": "./public"
+  }
+}
